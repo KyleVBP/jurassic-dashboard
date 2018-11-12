@@ -26,4 +26,13 @@ html {
   100% {
     transform: scale(0);
   }
+
+}
+
+#compass {
+  color: #f62e52;
+}
+
+#hq {
+  color: #ffd31d;
 }
