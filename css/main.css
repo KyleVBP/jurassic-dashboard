@@ -7,3 +7,23 @@ html {
 .blue-btn {
   color: #6feff9;
 }
+
+#alert {
+  transform: scale(0);
+  animation: alert-grow 3s linear infinite;
+}
+
+@keyframes alert-grow {
+
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
